@@ -6,7 +6,12 @@
   "keywords": ["SERPS", "HTTP Client", "curl"],
   "homepage": "https://github.com/serp-spider/serps-http-client-curl",
   "license": "Fair",
-
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "git@github.com:lukaszmordawski/copyscape.git"
+    }
+  ],
   "minimum-stability": "dev",
   "prefer-stable": true,
 
@@ -31,7 +36,7 @@
 
   "require": {
     "php": ">=5.5",
-    "serps/core": "~0.2.0"
+    "serps/core": "dev-master"
   },
 
   "scripts": {
