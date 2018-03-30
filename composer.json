@@ -9,7 +9,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url":  "git@github.com:lukaszmordawski/copyscape.git"
+      "url": "git@github.com:lukaszmordawski/serps-core.git"
     }
   ],
   "minimum-stability": "dev",
